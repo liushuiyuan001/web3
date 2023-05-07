@@ -1,5 +1,5 @@
 const path = require('path')
-const { Web3 } = require('web3');
+const Web3 = require("web3");
 
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 
@@ -34,8 +34,10 @@ const deploy = async () => {
     })
     .send({
       from: accounts[0],
-      gas: 6680,
-      // gasPrice: "1000000000",
+      gas: 5000000,
+    })
+    .catch(e => {
+      console.log('e', e)
     })
   } catch (error) {
     console.log('error', error)

@@ -12,10 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^2.1.10",
+    "@truffle/hdwallet-provider": "^1.4.0",
     "fs-extra": "^11.1.1",
     "solc": "^0.8.19",
-    "web3": "v4.0.1-rc.1"
+    "web3": "v1.3.6"
   },
   "devDependencies": {
     "ganache-cli": "^6.12.2",
